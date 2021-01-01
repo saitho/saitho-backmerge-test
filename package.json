@@ -7,7 +7,8 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/npm": "^7.0.9",
     "@semantic-release/git": "^9.0.0",
-    "@saithodev/semantic-release-backmerge": "^1.2.0"
+    "@saithodev/semantic-release-backmerge": "^1.2.0",
+    "@saithodev/semantic-release-gitea": "^1.0.0"
   },
   "release": {
     "plugins": [
@@ -32,7 +33,13 @@
           "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
         }
       ],
-      "@saithodev/semantic-release-backmerge"
+      "@saithodev/semantic-release-backmerge",
+      [
+        "@saithodev/semantic-release-gitea",
+        {
+          "giteaUrl": "https://git.saitho.me"
+        }
+      ]
     ],
     "branches": [
       {
