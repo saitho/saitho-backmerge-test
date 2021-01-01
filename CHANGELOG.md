@@ -1,3 +1,10 @@
+# [1.1.0-next.1](https://git.saitho.me/saitho/backmerge-test/compare/1.0.0...1.1.0-next.1) (2021-01-01)
+
+
+### Features
+
+* release from develop ([f812632](https://git.saitho.me/saitho/backmerge-test/commit/f812632ec828a61013840263e1f6da71573c41c3))
+
 # 1.0.0 (2021-01-01)
 
 
